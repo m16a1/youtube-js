@@ -1,0 +1,23 @@
+{
+	"name": "youtube-js",
+	"description":  "Youtube downloader",
+	"keywords":     ["javascript", "youtube", "downloader"],
+	"author":       "m16a1",
+	"version":      "0.1",
+	"licenses": [{
+		"type":       "MIT",
+		"url":        "http://github.com/m16a1/youtube-js/raw/fibers/LICENSE"
+	}],
+	"engines": {
+		"node":       ">=0.2.5"
+	},
+	
+	"directories" : {
+		"lib" : "./lib"
+	},
+	"main" : "./lib/youtube",
+	"repository":   {
+		"type": "git",
+		"url": "git://github.com/m16a1/youtube-js.git"
+	}
+}
