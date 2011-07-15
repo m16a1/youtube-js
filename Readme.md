@@ -1,6 +1,15 @@
+## Requirements
+
+* compress
+* sync
+
+## Installation
+
+	npm install youtube-js
+
 ## Examples
 
-	var yt = require('../lib/youtube');
+	var yt = require('youtube-js');
 
 	yt.getInfo('http://www.youtube.com/watch?v=F6k8lTrAE2g', function(info) {
 		info.download('/tmp/' + info.author + ' - ' + info.title, {
@@ -8,15 +17,10 @@
 			onData: function (len, size) {
 			    console.log('downloaded ' + len + ' bytes from ' + size);
 			},
-		
+
 			onComplete: function (file) {
 			    console.log('download complete');
 			}
 		});
 		
 	});
-
-## Requirements
-
-* compress.
-* sync.
