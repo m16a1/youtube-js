@@ -7,7 +7,7 @@
 
 	npm install youtube-js
 
-## Examples
+## Example
 
 	var yt = require('youtube-js');
 

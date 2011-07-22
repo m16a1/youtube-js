@@ -19,5 +19,9 @@
 	"repository": {
 		"type":       "git",
 		"url":        "git://github.com/m16a1/youtube-js.git"
+	},
+	"dependencies":{
+		"sync": ">=0.1.9beta",
+		"rql": ">=0.1.9",
 	}
 }

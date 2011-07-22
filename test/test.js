@@ -25,4 +25,13 @@ yt.getInfo(testURL, function(info) {
 		}
 	});
 	
+	info.download('/tmp/testvideo', {
+		fmt: 'best',
+		autoext: false,
+
+		onComplete: function (file) {
+			console.log('download complete');
+		}
+	});
+	
 });
