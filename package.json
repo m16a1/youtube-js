@@ -3,7 +3,7 @@
 	"description":    "Youtube downloader",
 	"keywords":       ["javascript", "youtube", "downloader"],
 	"author":         "m16a1",
-	"version":        "0.1.0",
+	"version":        "0.1.1",
 	"licenses": [{
 		"type":       "MIT",
 		"url":        "http://github.com/m16a1/youtube-js/raw/fibers/LICENSE"
@@ -20,8 +20,8 @@
 		"type":       "git",
 		"url":        "git://github.com/m16a1/youtube-js.git"
 	},
-	"dependencies":{
+	"dependencies": {
 		"sync": ">=0.1.9beta",
-		"compress": ">=0.1.9",
+		"compress": ">=0.1.9"
 	}
 }
