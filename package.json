@@ -22,6 +22,6 @@
 	},
 	"dependencies":{
 		"sync": ">=0.1.9beta",
-		"rql": ">=0.1.9",
+		"compress": ">=0.1.9",
 	}
 }
